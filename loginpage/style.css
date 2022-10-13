@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+/* General styling */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    background: rgb(0,24,87);
+    background: linear-gradient(90deg, rgba(0,24,87,1) 0%, rgba(0,215,255,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+/* form styling */
+.form{
+    display: block;
+    margin: 15% auto;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    border: 1px solid #cbdccbc9;
+    background-color: #cbdccbc9;
+    padding: 1em;
+    border-radius: 2em;
+}
+.form_title{
+    text-align: center;
+    margin-top: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+input {
+    margin-top: 2em;
+    padding: 0.75em 0.5em;
+    border: none;
+    border-radius: 10px;
+}
+input:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    outline: 1px solid gray;
+}
+input:focus{
+    opacity: 1;
+    outline: 1px solid gray;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-input #dob{
+    margin: 2em 0;
+}
+.form-input_gender{
+    margin: 2em 0;
+}
+#gender{
+    padding: 0.75em;
+    border: none;
+    border-radius: 10px;
+}
+#gender:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    outline: 1px solid gray;
+}
+#gender:focus{
+    opacity: 1;
+    outline: 1px solid gray;
+}
+.btn-submit{
+    padding: 0.6rem;
+    cursor: pointer;
+    margin: 2em 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.btn-submit:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    outline: 1px solid rgb(0, 170, 0);
+}
+.btn-submit:focus{
+    opacity: 1;
+    outline: 1px solid rgb(0, 170, 0);
+}
+.signin{
+    text-decoration: none;
+    color: blue;
+}
+.signin:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
+.signin:focus{
+    opacity: 1;
+    outline: 1px solid gray;
+}
+
+/* success page */
+
+.success{
+    margin: 0 auto;
+}
+.img-success{
+    width: 100%;
+    max-width: 500px;
+}
+.text-success{
+    margin: 15% auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.xx{
+    background-image: url(./images/Login.jpg);
+    background-repeat:no-repeat;
+}
+
+/* media queries */
+@media (min-width: 700px){
+    .form-input{
+        display: flex;
+        flex-direction: row;
+    }
+}
