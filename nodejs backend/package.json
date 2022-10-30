@@ -1,0 +1,16 @@
+{
+  "name": "week-5",
+  "version": "1.0.0",
+  "description": "Week 5 task for nodejs",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "dev": "nodemon script.js"
+  },
+  "author": "Samuel Nonyelu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelnonyelu/Zure-Nodejs-week-5/issues"
+  },
+  "homepage": "https://github.com/samuelnonyelu/Zure-Nodejs-week-5#readme"
+}
